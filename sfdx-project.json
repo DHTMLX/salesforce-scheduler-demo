@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "scheduler-salesforce-app",
+  "namespace": "",
+  "sfdcLoginUrl": "https://xbsoftware7-dev-ed.my.salesforce.com",
+  "sourceApiVersion": "54.0"
+}
