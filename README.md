@@ -83,7 +83,8 @@ The earliest version of dhtmlxScheduler that is fully compatible with SalesForce
 
 - Documentation: [https://docs.dhtmlx.com/scheduler/](https://docs.dhtmlx.com/scheduler/)
 - dhtmlxScheduler product page: [https://dhtmlx.com/docs/products/dhtmlxScheduler/](https://dhtmlx.com/docs/products/dhtmlxScheduler/)
-- Video tutorial: coming soon
+- Video tutorial: [https://youtu.be/IceDT8O1Pys](https://youtu.be/IceDT8O1Pys?list=PLKS_XdyIGP4M1Jtg1qyjdJtCsqU1bqGsc)
+- About DHTMLX Scheduler in Salesforce: [https://dhtmlx.com/docs/products/demoApps/salesforce-scheduler/](https://dhtmlx.com/docs/products/demoApps/salesforce-scheduler/)
 
 
 ## Support Us
