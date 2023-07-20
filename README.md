@@ -19,20 +19,20 @@ The sample is implemented with the help of JavaScript Scheduler library - [DHTML
 - Create [scratch org](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm#!)
 
 ```sh
-sfdx force:auth:web:login -d
-sfdx force:org:create -f config/project-scratch-def.json -s
+sfdx org login web -d
+sfdx org create scratch -f config/project-scratch-def.json -d
 ```
 
 - Publish code
 
 ```sh
-sfdx force:source:push
+sfdx project deploy start
 ```
 
 - Open scratch org in browser
 
 ```
-sfdx force:org:open
+sfdx org open
 ```
 
 The scratch org already has Scheduler app which you can check, or go to "Setup : Lighting Apps", create a new Lighting App and drop the Scheduler from the list of available components.
