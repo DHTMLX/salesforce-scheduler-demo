@@ -37,7 +37,7 @@ export default class SchedulerView extends LightningElement {
 
         Promise.all([
             loadScript(this, SchedulerFiles + "/dhtmlxscheduler.js"),
-            loadStyle(this, SchedulerFiles + "/dhtmlxscheduler_material_nofont.css")
+            loadStyle(this, SchedulerFiles + "/dhtmlxscheduler.css")
         ])
             .then(() => {
                 this.initializeUI();
@@ -57,8 +57,7 @@ export default class SchedulerView extends LightningElement {
         const root = this.template.querySelector(".thescheduler");
         root.style.height = this.height + "px";
 
-        //uncomment the following line if you use the Enterprise or Ultimate version
-        //const scheduler = window.Scheduler.getSchedulerInstance();
+        const scheduler = window.Scheduler.getSchedulerInstance();
         scheduler.templates.parse_date = (date) => new Date(date);
         scheduler.templates.format_date = (date) => date.toISOString();
         scheduler.config.header = [
