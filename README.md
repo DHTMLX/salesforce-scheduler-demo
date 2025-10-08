@@ -1,4 +1,4 @@
-# DHTMLX Scheduler demo for SalesForce LWC
+# DHTMLX Scheduler Demo for SalesForce LWC
 
 [![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
 [![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
@@ -75,24 +75,41 @@ scheduler.createDataProcessor(function (entity, action, data, id) {
 
 ### Version of the Scheduler
 
-force-app/main/default/staticresources/scheduler contains a trial version of the Scheduler ( it will show a warning message time to time ). For production usage you will need to replace js and css files in this archive with ones from enterprise/ultimate Scheduler package.
+force-app/main/default/staticresources/scheduler contains a trial version of the Scheduler (it will show a warning message time to time). For production usage you will need to replace js and css files in this archive with ones from enterprise/ultimate Scheduler package.
+
+[Choose a proper license >](https://dhtmlx.com/docs/products/licenses.shtml)
 
 The earliest version of dhtmlxScheduler that is fully compatible with SalesForce LWC is [dhtmlxScheduler v6.0.1](https://docs.dhtmlx.com/scheduler/what_s_new.html#601).
 
+---
+<p align="center">
+🚀 <b>Explore the Live Demo Built with DHTMLX for Salesforce LWC</b>
+</p>
+<p align="center">
+This demo presents a complete integration of DHTMLX components with Salesforce LWC, featuring a Kanban board for intuitive drag-and-drop task organization, a Gantt chart for advanced project management with task dependencies, and a Scheduler for managing events. <a href="https://github.com/DHTMLX/salesforce-lwc-demo/">Check demo on GitHub</a>.
+</p>
+<p align="center">
+    You can test the demo in a live Salesforce environment without any local setup. Make sure you use the following credentials:
+</p>
+<p align="center">Login: <code>user</code></p>
+<p align="center">Password: <code>demo</code></p>
+<p align="center">
+  <a href="https://dhtmlx-dev-ed.develop.lightning.force.com/lightning/n/Kanban">
+  Open the live demo >>> </a>
+</p>
+
+---
+
 ## Related resources
 
-- Documentation: [https://docs.dhtmlx.com/scheduler/](https://docs.dhtmlx.com/scheduler/)
-- dhtmlxScheduler product page: [https://dhtmlx.com/docs/products/dhtmlxScheduler/](https://dhtmlx.com/docs/products/dhtmlxScheduler/)
-- Video tutorial: [https://youtu.be/IceDT8O1Pys](https://youtu.be/IceDT8O1Pys?list=PLKS_XdyIGP4M1Jtg1qyjdJtCsqU1bqGsc)
-- About DHTMLX Scheduler in Salesforce: [https://dhtmlx.com/docs/products/demoApps/salesforce-scheduler/](https://dhtmlx.com/docs/products/demoApps/salesforce-scheduler/)
+- [About DHTMLX Scheduler](https://dhtmlx.com/docs/products/dhtmlxScheduler/)
+- [DHTMLX Scheduler documentation](https://docs.dhtmlx.com/scheduler/)
+- [Video tutorial](https://youtu.be/IceDT8O1Pys)
+- [About DHTMLX Scheduler in Salesforce](https://dhtmlx.com/docs/products/demoApps/salesforce-scheduler/)
 
+## Join our online community
 
-## Support Us
-
-Star our GitHub repo :star:
-
-Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
-
-Follow us on [Twitter](https://twitter.com/dhtmlx) :bird:
-
-Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
+- Star our GitHub repo :star:
+- Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
+- Follow us on [x](https://x.com/dhtmlx) :bird:
+- Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
